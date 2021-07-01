@@ -1,0 +1,38 @@
+.father{
+width:80%;
+height:80%;
+background-color:yellow;
+position:relative;
+}
+.father div{
+	width:25%;
+	height:20%;
+	display:inline-block;
+	position:relative;
+	text-align:center;
+	color:white;
+	padding:5%;
+	padding-top:10%;
+	text-transform:capitalize;
+	position:absolute;
+	letter-spacing:3px;
+}
+.child1{
+	background-color:red;
+	
+}
+.child2{
+	background-color:blue;
+bottom:0;
+}
+.child3{
+	background-color:pink;
+	z-index:1;
+	right:0;
+}
+.child4{
+	background-color:green;
+	right:0;
+	bottom:0;
+}
+
